@@ -1,0 +1,48 @@
+[
+  {
+    "id": "bug_001",
+    "task": "Fix the bug in the function",
+    "code": "def add(a, b): return a - b",
+    "expected_behavior": "Return sum of two numbers",
+    "test_cases": [
+      {"input": [2, 3], "output": 5},
+      {"input": [5, 5], "output": 10}
+    ],
+    "difficulty": "easy",
+    "tags": ["bug_fix"]
+  },
+  {
+    "id": "bug_002",
+    "task": "Fix division logic",
+    "code": "def divide(a, b): return a * b",
+    "expected_behavior": "Return division",
+    "test_cases": [
+      {"input": [6, 2], "output": 3}
+    ],
+    "difficulty": "easy",
+    "tags": ["bug_fix"]
+  },
+  {
+    "id": "logic_001",
+    "task": "Fix logic error",
+    "code": "def is_even(n): return n % 2 == 1",
+    "expected_behavior": "Return True if even",
+    "test_cases": [
+      {"input": [2], "output": true},
+      {"input": [3], "output": false}
+    ],
+    "difficulty": "medium",
+    "tags": ["logic"]
+  },
+  {
+    "id": "opt_001",
+    "task": "Optimize code",
+    "code": "def sum_list(lst): total = 0\n for i in range(len(lst)):\n  total += lst[i]\n return total",
+    "expected_behavior": "Efficient sum",
+    "test_cases": [
+      {"input": [[1,2,3]], "output": 6}
+    ],
+    "difficulty": "hard",
+    "tags": ["optimization"]
+  }
+]
