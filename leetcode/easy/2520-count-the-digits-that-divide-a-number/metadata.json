@@ -1,0 +1,22 @@
+{
+  "title": "Count the Digits That Divide a Number",
+  "titleSlug": "count-the-digits-that-divide-a-number",
+  "frontendQuestionId": "2520",
+  "leetcodeUrl": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
+  "difficulty": "Easy",
+  "topics": [
+    "Math"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-11T16:47:13.161Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-11T16:47:15.169Z"
+}
